@@ -1,0 +1,194 @@
+.figure1 {
+position: absolute;
+width: 1665px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+background: #0E77AF;
+}
+
+/* Rectangle 6 */
+
+.figure2 {
+position: absolute;
+width: 78px;
+height: 79px;
+left: 259px;
+top: 57px;
+
+background: #000000;
+}
+
+/* Group 11 */
+
+.figure3 {
+position: absolute;
+width: 643px;
+height: 30px;
+left: 498px;
+top: 85px;
+}
+
+
+/* Rectangle 15 */
+
+.figure4 {
+position: absolute;
+width: 29px;
+height: 47px;
+left: 1199px;
+top: 80px;
+
+background: #FF0000;
+}
+
+/* Rectangle 16 */
+
+.figure5 {
+position: absolute;
+width: 102px;
+height: 15px;
+left: 1233px;
+top: 100px;
+
+background: #FF0000;
+}
+
+/* Rectangle 17 */
+
+.figure6 {
+position: absolute;
+width: 79px;
+height: 27px;
+left: 1338px;
+top: 93px;
+
+background: #FF0000;
+}
+
+/* Rectangle 18 */
+
+.figure7 {
+position: absolute;
+width: 50px;
+height: 19px;
+left: 1234px;
+top: 77px;
+
+background: #FF0000;
+}
+
+/* Group 12 */
+
+.figure8 {
+position: absolute;
+width: 99px;
+height: 24px;
+left: 247px;
+top: 8px;
+}
+
+
+/* Rectangle 22 */
+
+.figure9 {
+position: absolute;
+width: 111px;
+height: 12px;
+left: 1310px;
+top: 14px;
+
+background: #BB4141;
+}
+
+/* For Physicians Our P */
+
+.figure10 {
+position: absolute;
+width: 458px;
+height: 140px;
+left: 829px;
+top: 310px;
+
+font-family: 'Asap';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+
+color: #1A1919;
+}
+
+
+
+/* 90% First Pass payme */
+
+.figure11 {
+position: absolute;
+width: 584px;
+height: 106px;
+left: 833px;
+top: 450px;
+
+font-family: 'Asap';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 42px;
+}
+.figure12 {
+position: absolute;
+width: 284px;
+height: 74px;
+left: 834px;
+top: 596px;
+}
+
+
+
+
+/* Group 9 */
+
+
+position: absolute;
+width: 455px;
+height: 126px;
+left: 832px;
+top: 309px;
+
+
+
+/* Rectangle 27 */
+
+
+position: absolute;
+width: 33px;
+height: 42px;
+left: 107px;
+top: 473px;
+
+background: #FF0000;
+
+
+/* Group 10 */
+
+
+position: absolute;
+width: 545px;
+height: 214px;
+left: 832px;
+top: 456px;
+
+
+
+/* Rectangle 29 */
+
+
+position: absolute;
+width: 33px;
+height: 42px;
+left: 1536px;
+top: 473px;
+
+background: #FF0606;
