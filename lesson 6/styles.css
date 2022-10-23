@@ -1,0 +1,52 @@
+body {
+background-color: white
+}
+
+thead {
+    font-size: 20pt;
+}
+
+tbody {
+    color: black
+}
+
+.iphone .phone::before {
+    content: '🍎';
+}
+.lox2 .lox3::before {
+    content: '😳';
+}
+table .price::before {
+    content: '🤑';
+}
+
+td, th {
+    border: 1px solid;
+    padding: 5px;
+}
+
+th {
+    border-top: 5px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.one {
+    height: 100px;
+    width: 100px;
+    background-color:  darkgreen;
+    top: 45vw
+}
+
+.two {
+    height: 200px;
+    width: 200px;
+    background-color:  gold;
+}
+
+div {
+    display: inline;
+    position: absolute;
+}
