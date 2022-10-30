@@ -1,0 +1,88 @@
+body {
+    background-color: peachpuff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* perviy ekran */
+.welcome {
+    text-align: center;
+    background: linear-gradient(90deg, #f65673 , #afeeee);
+    padding-bottom: 50vh;
+    padding: 160px 0;
+}
+
+.welcome-img {
+    width: 20vw;
+    border-radius: 40%;
+    border: 4px solid #fdbcd1;
+
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30pt;
+    margin-bottom: 40px;
+}
+
+.welcome-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 10pt;
+}
+
+/* NAINKI OMG AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+.new {
+    text-align: center;
+    padding-bottom: 50vh;
+    padding-bottom: 75px;
+}
+
+
+.new-heading {
+    font-family: 'Pacifico', cursive;
+    font-size: 35pt;
+    color: #FF715B;
+}
+
+.book-card {
+    display: inline-block;
+    width: 45%;
+    height: 270px;
+    background-color: #FFF9F1;
+    border: 3px solid #F5B6AC;
+    border-radius: 22px;
+    padding: 15px 10px;
+    margin: 0 10px;
+}
+
+.book-cover {
+    width: 160px;
+    height: 210px;
+}
+
+.book-intro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    float: right;
+    width: 70%;
+}
+
+.book-link {
+    display: inline-block;
+}
+.prize {
+    background: linear-gradient(90deg, #f65673 , #afeeee);
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.prize-heading {
+    font-family: 'Pacifico', cursive;
+    font-size: 25pt;
+    color: #FF715B;
+    margin-top: 100px;
+}
