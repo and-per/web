@@ -84,5 +84,49 @@ h1 {
     font-family: 'Pacifico', cursive;
     font-size: 25pt;
     color: #FF715B;
-    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.book-link {
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-size: 15pt;
+    line-height: 25px;
+    margin: 25px;
+}
+.prize-list {
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    width: 320px;
+    margin: 30px 70px 0;
+
+}
+
+.prize-icon {
+    font-size: 30px;
+    display: block;
+}
+
+ol {
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+
+.last-sec {
+    width: 70%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+
+.reader {
+    border-radius: 50%;
+    float: right;
+}
+
+.last-words {
+    font-size: 25px;
+    line-height: 39px;
 }
