@@ -1,0 +1,13 @@
+@media (max-width: 800px) {
+    /*.header::before {
+        background-color: lightsalmon;
+    }*/
+
+    .borgir-menu {
+        display: flex;
+    }
+
+    .header-top nav {
+        display: none;
+    }
+}

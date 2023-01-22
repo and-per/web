@@ -1,0 +1,43 @@
+header, footer, .testimonials {
+    background-color: rgb(57, 154, 128);
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.navbar {
+    padding-bottom: 60px;
+}
+
+header {
+    padding: 1% 10% 7%;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+.title-img {
+    width: 60%;
+    border-radius: 66px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  16px 16px 12px #5a5a5a,
+                 -16px -16px 12px #ffffff;
+}
+
+.features-img {
+    width: 20%;
+}
+.features {
+    padding: 7% 0;
+}
+
+.features-img {
+    width: 20%;
+}
+
+.testimonial-text {
+    
+}
