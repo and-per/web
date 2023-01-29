@@ -39,5 +39,34 @@ header {
 }
 
 .testimonial-text {
-    
+    font-size: 2.5rem;
+    padding: 10%;
+}
+
+.cards {
+    padding: 0 17%;
+}
+
+.faq  {
+    padding: 5% 0;
+}
+
+.accordion {
+    padding: 0 8%;
+}
+
+.accord-sect {
+    background-color: rgb(57, 154, 128);
+    padding: 7% 0;
+}
+
+.paw {
+    width: 300px;
+    opacity: 0.35;
+}
+
+footer {
+    font-size: 30px;
+    padding: 3% 0;
+    text-align: center;
 }
