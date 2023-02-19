@@ -63,7 +63,7 @@
 const person1 = {
     fname: "Иван",
     weight: 72,
-    height: 1.69,
+    height: 0,
     imt: function(){
         return this.weight / (this.height ** 2)
     }
@@ -82,6 +82,13 @@ const person2 = {
 console.log(person1.imt())
 
 console.log(person2.imt())
+
+
+    if (person1.imt() > person2.imt()) {
+        console.log("Иван жирнее!!!!1!")
+    } else {
+        console.log("Алексей жирнее!!!!1!")
+    }
 
 
 
