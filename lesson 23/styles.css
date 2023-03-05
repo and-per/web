@@ -1,0 +1,59 @@
+/* .red {
+    background-color: red;
+}
+#blue {
+    background-color: blue;
+} */
+
+.ok {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.s1 {
+    position: absolute;
+    width: 381px;
+    height: 150px;
+    margin-left: -10px;
+    margin-top: -10px;
+    /* left: -62px;
+    top: -100px; */
+    
+    background: #E5E0FE;
+    border-bottom-right-radius: 50px;
+    
+}
+
+.s1t {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 29px;
+    text-align: center;
+
+color: #000000;
+}
+
+.t1 {
+    position: absolute;
+    width: 572px;
+    height: 58px;
+    left: 548px;
+    top: 3px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 58px;
+    /* identical to box height */
+
+
+color: #0000
+}
+
+.s1t1 {
+    left: -200px;
+}
