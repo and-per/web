@@ -24,3 +24,28 @@
 // function a() {
 //     document.querySelector(".myText").value = "AAAARGH"
 // }
+
+
+
+function again1() {
+    let q = Math.floor(Math.random() * 100 + 1)
+
+    console.log(q)
+}
+
+again1()
+
+function a() {
+again1()
+}
+
+
+
+function play(q) {
+let w = document.querySelector(".inp").value
+    if (w == q) {
+        console.log(`:like:`)
+    } else {
+        console.log(`:dislike:`)
+    }
+}
