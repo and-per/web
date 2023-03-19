@@ -25,27 +25,59 @@
 //     document.querySelector(".myText").value = "AAAARGH"
 // }
 
-
-
+let q = Math.floor(Math.random() * 100 + 1)  // стартовое значение
 function again1() {
-    let q = Math.floor(Math.random() * 100 + 1)
-
+    q = Math.floor(Math.random() * 100 + 1)  // новое число
     console.log(q)
 }
 
-again1()
+console.log("Старторовое число:", q)
+
+let e = 10
+let record = "-"
 
 function a() {
-again1()
+    e = 10
+    document.querySelector(".score_counter").innerHTML = e
+    document.querySelector(".e1t").innerHTML = "?"
+    again1()
 }
 
-
-
-function play(q) {
-let w = document.querySelector(".inp").value
-    if (w == q) {
-        console.log(`:like:`)
-    } else {
-        console.log(`:dislike:`)
+function rec() {
+    console.log()
+    if (record == "-") {
+        document.querySelector(".record_counter").innerHTML = 10 - e 
+    } 
+    else{
+        if (document.querySelector(".record_counter").innerHTML > 10 - e) {
+            document.querySelector(".record_counter").innerHTML = 10 - e 
+        }
+    
     }
 }
+
+function play() {
+    let w = document.querySelector(".inp").value
+    if (e == 0) {
+        alert(`Вы проиграли, загаданное число было ${q}`)
+    }else{
+        if (w == q) {
+            document.querySelector(".score_counter").innerHTML = e
+            console.log(`:like:`)
+            document.querySelector(".e1t").innerHTML = q
+            alert(`ВЫ ВЫИГРАЛИ! Загаданное число было ${q}`)
+            rec()   
+        } else {
+            console.log(`:dislike:`)
+            e--
+            document.querySelector(".score_counter").innerHTML = e
+                if (w > q) {
+                    document.querySelector(".t2").innerHTML = "Загаданное число меньше"
+                } else {
+                    document.querySelector(".t2").innerHTML = "Загаданное число больше"
+                }
+        }
+    }
+    
+}
+
